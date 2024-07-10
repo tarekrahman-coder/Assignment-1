@@ -114,7 +114,9 @@ body{
 }
 /* header styles end here */
 
-
+main{
+    padding: 0 80px;
+}
 /* section why web development start here */
 .development{
     border-radius: 16px;
@@ -166,3 +168,26 @@ body{
 }
 
 /* section why web development end here */
+
+
+/* section inspiration start here*/
+.inspiration{
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.inspiration__text{
+    margin: 48px;
+}
+
+.inspiration__video{
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.inspiration__video iframe{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+/* section inspiration end here*/
