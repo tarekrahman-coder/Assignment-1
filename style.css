@@ -105,12 +105,15 @@ body{
     padding: 21px 24px 21px 24px;
     border: none;
     border-radius: 8px;
-    color: var(--text-color2);
     background: var(--text-color);
-    font-size: 20px;
+    line-height: 23px;   
+}
+
+.header__button button a{
     font-weight: var(--font-weight-medium);
-    line-height: 23px;
-    cursor: pointer;
+    color: var(--text-color2);
+    font-size: 20px;
+    text-decoration: none;
 }
 /* header styles end here */
 
@@ -248,9 +251,9 @@ main{
 
 /* section support start here */
 .support{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
     background-image: url(./assets/handshake.jpg);
-    mix-blend-mode: overlay;
+    background-blend-mode: overlay;
     height: 314px;
     background-position: center center;
     padding: 64px 48px 64px 48px;
