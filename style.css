@@ -343,10 +343,11 @@ main{
 }
 
 .support__form input{
-    padding: 19px 20px 19px 20px;
+    padding: 15px 20px;
     border: 1px solid rgba(13, 19, 33, 0.15);
 	border-radius: 8px;
     background: var(--text-color2);
+    margin-top: 30px;
     
     
 }
@@ -360,6 +361,7 @@ main{
 
 .support__form input:last-child{
     font-size: 20px;
+    font-weight: var(--font-weight-light);
     cursor: pointer;
 }
 /* support section end here */
