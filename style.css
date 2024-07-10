@@ -19,7 +19,7 @@ img {
 :root{
     --text-color: #0D1321;
     --text-color2: #ffffff;
-    --dark-light-color: rgba(#0D1321, 0.7);
+    --dark-light-color: rgba(13, 19, 33, 0.7);
     --font-weight-light: 400;
     --font-weight-medium: 600;
     --font-weight-bold: 700;
@@ -34,6 +34,21 @@ img {
 }
 
 
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order-0{
+    order: 0;
+}
+
+.order-1{
+    order: 1;
+}
+
+
 .heading--primary{
     color: var(--text-color);
     font-size: 32px;
@@ -45,12 +60,6 @@ img {
 .heading--secondary{
     font-size: 24px;
     line-height: 36px;
-}
-
-.heading--tertiary{
-    color: var(--dark-light-color);
-    font-weight: var(--font-weight-bold);
-
 }
 
 .text--primary{
@@ -75,6 +84,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 74px;
 }
 .header__profile{
     margin-top: 26px;
@@ -103,3 +113,56 @@ body{
     cursor: pointer;
 }
 /* header styles end here */
+
+
+/* section why web development start here */
+.development{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+    margin-bottom: 88px;
+}
+
+.development__text{
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+}
+
+.development__part{
+    display: flex;
+    padding: 48px;
+}
+.development__part > div{
+    flex: 1;
+}
+
+
+.development__part-title{
+    color: var(--dark-light-color) !important;
+    font-weight: var(--font-weight-bold) !important;
+}
+
+.development__part-text{
+    margin-top: 16px;
+    margin-bottom: 32px;
+   
+}
+
+.part-two{
+    display: flex;
+    justify-content: center;
+}
+
+.development__part-btn {
+    border: 1px solid var(--text-color);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+.development__part-btn a{
+    font-size: 20px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* section why web development end here */
