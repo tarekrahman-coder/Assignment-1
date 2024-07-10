@@ -85,7 +85,39 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 74px;
+    margin-top: 100px;
+    border: 2px dashed rgba(13, 19, 33, 0.2);
 }
+
+.header__container{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__logo{
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    margin-left: 100px;
+}
+
+.header__resume{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+	border-radius: 8px;		
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .header__profile{
     margin-top: 26px;
     margin-bottom: 32px;
@@ -110,10 +142,10 @@ body{
 }
 
 .header__button button a{
-    font-weight: var(--font-weight-medium);
-    color: var(--text-color2);
-    font-size: 20px;
-    text-decoration: none;
+    font-weight: var(--font-weight-medium) !important;
+    color: var(--text-color2) !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
 }
 /* header styles end here */
 
