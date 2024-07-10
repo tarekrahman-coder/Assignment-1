@@ -167,6 +167,7 @@ main{
     text-decoration: none;
 }
 
+
 /* section why web development end here */
 
 
@@ -191,3 +192,135 @@ main{
     border-radius: 16px;
 }
 /* section inspiration end here*/
+
+
+/* section current-target start here */
+
+.current-target__text{
+    margin-top: 24px;
+}
+
+.current-target__cards{
+    display: flex;
+    margin-top: 48px;
+}
+
+
+    /* card */
+    .card{
+        width: 364px;
+        margin: 0px 24px;
+        padding: 40px;
+        border-radius: 16px;
+    }
+    
+    .card__img{
+        width: 56px;
+        height: 56px;
+        margin: 24px 0;
+    }
+    
+    .card__text{
+        margin-top: 8px;
+        margin-bottom: 24px;
+    }
+    
+    .card__link a{
+        color: var(--text-color);
+        text-align: underline;
+        font-weight: 700;    
+        line-height: 19px;
+    }
+    
+    .card-one{
+      background: rgba(255, 76, 30, 0.05);
+    }
+    
+    .card-two{
+        background: rgba(0, 76, 232, 0.05);
+    }
+    
+    .card-three{
+        background: rgba(255, 223, 0, 0.05);
+    }
+/* section current-target end here */
+
+
+/* section support start here */
+.support{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url(./assets/handshake.jpg);
+    mix-blend-mode: overlay;
+    height: 314px;
+    background-position: center center;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    margin-top: 42px;
+    margin-bottom: 80px;
+
+}
+
+.support__title{
+    color: var(--text-color2);
+}
+
+.support__text{
+    color: var(--text-color2);
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+.support__form{
+    display: flex;
+    justify-content: center;
+
+}
+
+.support__form input{
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+	border-radius: 8px;
+    background: var(--text-color2);
+    
+    
+}
+
+.support__form input:first-child{
+    margin-right: 16px;
+    width: 548px;
+    border: none;
+    outline: none;
+}
+
+.support__form input:last-child{
+    font-size: 20px;
+    cursor: pointer;
+}
+/* support section end here */
+
+
+
+/* footer style */
+
+.footer{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 32px 150px;
+}
+.footer__title{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+    line-height: 23px;
+    
+}
+
+.footer__icons{
+    display: flex;
+}
+
+.footer__icons img{
+    margin-right: 24px;
+}
+
