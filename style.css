@@ -60,6 +60,7 @@ img {
 .heading--secondary{
     font-size: 24px;
     line-height: 36px;
+    font-weight: var(--font-weight-bolder);
 }
 
 .text--primary{
@@ -261,10 +262,10 @@ main{
     }
     
     .card__link a{
-        color: var(--text-color);
-        text-align: underline;
-        font-weight: 700;    
-        line-height: 19px;
+        color: var(--text-color)!important;
+        text-align: underline !important;
+        font-weight: 700 !important;    
+        line-height: 19px !important;
     }
     
     .card-one{
@@ -279,6 +280,36 @@ main{
         background: rgba(255, 223, 0, 0.05);
     }
 /* section current-target end here */
+
+
+/* section next-target start here */
+.next-target{
+    margin-top: 110px;
+    margin-bottom: 43px;
+}
+.next-target__text{
+    margin: 24px 43px 48px 43px;
+   
+}
+
+.next-target__card{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+	border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.next-target__card img{
+    width: 100px;
+}
+.next-target__card-text{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+/* section next-target end here */
 
 
 /* section support start here */
